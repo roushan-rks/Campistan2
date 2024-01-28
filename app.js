@@ -10,11 +10,11 @@ const flash = require("connect-flash");
 const passport = require("passport");
 const LocalStrategy = require("passport-local");
 const session = require("express-session");
-const MongoStore = require("connect-mongo");
+// const MongoStore = require("connect-mongo");
 
 const User = require("./models/user.js");
 
-const { campgroundSchema, reviewSchema } = require("./ServerValidateSchema.js");
+// const { campgroundSchema, reviewSchema } = require("./ServerValidateSchema.js");
 const ExpressError = require("./utils/ExpressError");
 const methodOverride = require("method-override");
 
