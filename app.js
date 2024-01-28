@@ -22,7 +22,7 @@ const userRoutes = require("./routes/users.js");
 const campgrounds = require("./routes/campgrounds.js");
 const reviews = require("./routes/reviews.js");
 // const dbUrl = process.env.DB_ONE;
-const dbUrl = "mongodb+srv://hyeambuj:mongosh@cluster0.9qbd5vf.mongodb.net/campistan";
+const dbUrl = "mongodb+srv://ambuj123:junior123@cluster0.3bp84gk.mongodb.net/campistan";
 
 // mongoose.connect(dbUrl);
 mongoose.connect(dbUrl);
